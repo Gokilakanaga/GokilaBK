@@ -11,7 +11,7 @@ public class browserFactory {
 	{
 		if(brName.equalsIgnoreCase("Chrome"))
 		{
-			System.setProperty("webdriver.chrome.driver", "D:\\software\\Selenium\\WEBDRIVER\\chromedriver_win32\\chromedriver.exe");
+			System.setProperty("webdriver.chrome.driver", "D:\\software\\Selenium\\WEBDRIVER\\New folder\\chromedriver.exe");
 			dr = new ChromeDriver();
 		}
 		else if (brName.equalsIgnoreCase("mozilla"))
