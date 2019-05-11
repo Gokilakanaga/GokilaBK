@@ -61,7 +61,7 @@ public class NewLoginPagePOM {
 
 	public void extrpt(ExtentReports report , ExtentTest logs,ITestResult rst)
 	{
-		report = new ExtentReports("E:\\workspace\\exmple1\\Testextentreport\\reports");
+		report = new ExtentReports("E:\\SELENIUM\\reports\\");
 		logs = report.startTest("test+++++++++++++++");
 
 		logs.log(LogStatus.PASS, "opened successfully");

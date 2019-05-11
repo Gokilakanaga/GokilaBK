@@ -18,7 +18,7 @@ public class utilTest {
 		{
 			TakesScreenshot tkescrsht = (TakesScreenshot) dr;
 			File src = tkescrsht.getScreenshotAs(OutputType.FILE);
-			String dst = "E:\\workspace\\exmple1\\Testextentreport\\reports\\"+scrnme+".png";
+			String dst = "E:\\SELENIUM\\reports\\"+scrnme+".png";
 
 			File dstntn = new File(dst);
 			FileUtils.copyFile(src, dstntn);
